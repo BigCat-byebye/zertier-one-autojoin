@@ -1,14 +1,17 @@
 #!/bin/bash
 #set -exu
 
-# 从官网获取api token和子网id，目前不变
+
+##################################################
+# 修改这里的4个字段即可
+# 从官网获取api token以及网络id
 apitoken="XXXXXXXXXXXXXXXXX"
 networkid="XXXXXXXXXXX"
 
-# 填写客户端的名字和描述
+# 填写预加入设备的名称和描述
 clientname="test-cloud"
 clientdescription="测试"
-
+###################################################
 
 
 # 检测并安装zerotier-one, curl, jq
